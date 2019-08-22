@@ -1,0 +1,1 @@
+{"errors":[{"message":"Cannot query field \"timeToRead\" on type \"ContentfulBlogPost\".","locations":[{"line":6,"column":9}]}],"pageContext":{"isCreatedByStatefulCreatePages":true}}
