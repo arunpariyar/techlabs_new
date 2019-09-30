@@ -1,1 +1,0 @@
-{"errors":[{"message":"Cannot query field \"twitterUrl\" on type \"ContentfulLocationPage\". Did you mean \"internal\"?","locations":[{"line":26,"column":5}]}],"pageContext":{"isCreatedByStatefulCreatePages":false,"heading":"Barcelona"}}

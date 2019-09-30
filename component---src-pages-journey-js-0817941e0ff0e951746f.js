@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[17],{149:function(n,e,t){"use strict";t.r(e);var r=t(7),o=t.n(r),u=t(0),a=t.n(u),i=t(168),p=function(n){function e(){return n.apply(this,arguments)||this}return o()(e,n),e.prototype.render=function(){return a.a.createElement("div",null,a.a.createElement(i.a,null),"journey")},e}(u.Component);e.default=p}}]);
-//# sourceMappingURL=component---src-pages-journey-js-0817941e0ff0e951746f.js.map

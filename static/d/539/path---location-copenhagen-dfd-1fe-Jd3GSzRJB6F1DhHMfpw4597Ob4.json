@@ -1,1 +1,0 @@
-{"errors":[{"message":"Cannot query field \"usesFirstEntry\" on type \"ContentfulLocationPage\". Did you mean \"usesThirdEntry\" or \"usesSecondEntry\"?","locations":[{"line":27,"column":5}]}],"pageContext":{"isCreatedByStatefulCreatePages":false,"heading":"Copenhagen"}}

@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{144:function(n,e,a){"use strict";a.r(e);var t=a(0),c=a.n(t);e.default=function(){return c.a.createElement("div",null,c.a.createElement("p",null,"Barcelona"))}}}]);
-//# sourceMappingURL=component---src-pages-barcelona-js-dc0107f118951a84f4ac.js.map
