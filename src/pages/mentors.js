@@ -3,6 +3,8 @@ import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
 import Info from '../assets/pdf/Mentor.pdf';
 import Dates from '../assets/pdf/MentoringDates.pdf';
+import {FormattedMessage} from "gatsby-plugin-intl"
+
 
 class mentors extends Component {
   render() {
@@ -12,7 +14,10 @@ class mentors extends Component {
         <div className="container my-5 py-5 h-100">
           <div className="row">
             <div className="col">
-              <h2>Get your information</h2>
+              <h2>{
+                  <FormattedMessage id={"mentors.information.text"} />
+                }   
+                </h2>
             </div>
           </div>
           <div className="row my-5">

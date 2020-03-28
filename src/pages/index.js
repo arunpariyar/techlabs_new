@@ -168,27 +168,35 @@ class index extends React.Component {
           <Slider/>
 
           <RightImageSectionHeading
-              heading="Award-Winning Concept"
-              subheading="Google Impact Challenge 2018!"
-              text="TechLabs - the idea has convinced: The non-profit startup TechLabs offers students the opportunity to broaden and deepen their tech skills – all free of charge! In 2018, the project was awarded as TechLabs won 20,000 EUR in the final of the Google Impact Challenge in Berlin. Today over 100 people joined TechLabs on a voluntary basis to spread the idea."
+              heading={
+                <FormattedMessage id={"landingpage.googlechallenge.heading"}/>
+              }
+              subheading={
+                <FormattedMessage id={"landingpage.googlechallenge.subheading"}/>
+              }
+              text={
+                <FormattedMessage id={"landingpage.googlechallenge.text"}/>
+              }
               image={gic}
               hasButton={true}
               buttonText="Read more"
             buttonLink="https://www.wn.de/Muenster/3342867-Muensteraner-bei-Google-Impact-Challenge-ausgezeichnet-Non-Profit-Startup-Techlabs-gewinnt-20.000-Euro-Foerderpreis"
           />
           <Quote
-            heading="The TechLabs Journey"
-            subheading="What awaits you at TechLabs"
-            text="Get up to speed learning tech skills in one semester by means
-                  of our program that combines Online Learning, Project Work,
-                  and TechLabs Community Meetings. Independent of the background
-                  and prior knowledge - anyone can participate and learn
-                  tech-skills. At TechLabs we don’t want money to be an issue.
-                  That’s why our programs are free of charge. We help you to
-                  complete your own tech project and qualify for tech roles."
+            heading={
+              <FormattedMessage id={"landingpage.quote.nils.heading"}/>
+            }
+            subheading={
+              <FormattedMessage id={"landingpage.quote.nils.subheading"}/>
+            }
+            text={
+              <FormattedMessage id={"landingpage.quote.nils.text"}/>
+            }            
             photo={nils}
             name="Nils Bahr"
-            job="Head of Product @ TechLabs"
+            job={
+              <FormattedMessage id={"landingpage.quote.nils.job"}/>
+            }
           />
            <KeyBenefits
             heading={
@@ -233,19 +241,23 @@ class index extends React.Component {
           <section className="container-fluid mt-5 background h-100 py-5">
             <Container>
               <Heading
-                heading="Learn More"
-                subheading="Check out our locations and our Digital Shaper Program!"
-              />
+                heading={
+                  <FormattedMessage id={"landingpage.learn_more.heading"} />
+                }
+                subheading={
+                  <FormattedMessage id={"landingpage.learn_more.subheading"} />
+                }              />
               <div className="row h-100">
                 <div className="col-md-6 mt-3">
                   <Link to="/locations" className="noDec">
                     <div className="card">
-                      <h2 className="mt-3 color-red">Locations →</h2>
+                      <h2 className="mt-3 color-red">{
+                      <FormattedMessage id={"landingpage.learn_more.locations.h2"} />
+                      }</h2>
                       <p className="color-gl">
-                        Take a look at what is currently happening in our local
-                        tech communities. Your town is still missing? Bring
-                        TechLabs to your city, let’s build Digital Shapers
-                        together.
+                      {
+                        <FormattedMessage id={"landingpage.learn_more.locations.text"} />
+                      } 
                       </p>
                     </div>
                   </Link>
@@ -253,11 +265,13 @@ class index extends React.Component {
                 <div className="col-md-6 mt-3">
                   <Link to="/program" className="noDec">
                     <div className="card">
-                      <h2 className="mt-3 color-red">Program →</h2>
+                      <h2 className="mt-3 color-red">{
+                        <FormattedMessage id={"landingpage.learn_more.program.h2"} />
+                      }</h2>
                       <p className="color-gl">
-                        Not sure which learning track is the right one for you?
-                        Check out our program and get more information about
-                        each of our tracks.
+                      {
+                        <FormattedMessage id={"landingpage.learn_more.program.text"} />
+                      }
                       </p>
                     </div>
                   </Link>
