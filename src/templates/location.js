@@ -13,6 +13,7 @@ import Heading from "../components/smallComponents/Heading"
 import Container from "../components/smallComponents/Container"
 import Button from "../components/smallComponents/Button"
 import Layout from "../components/Layout/Layout"
+import FourCards from "../components/smallComponents/FourCards"
 
 class location extends Component {
   render() {
@@ -145,6 +146,22 @@ class location extends Component {
                 location.teamLinkedInFour && location.teamLinkedInFour
               }
             />
+            <Container>
+              <Heading
+                heading="Our nonprofit partners"
+                subheading="Look who we work with!"
+              />
+              <FourCards
+                headingOne="Venture Club"
+                imgOne={require("../assets/venture-club-ms.png")}
+                headingTwo="and those"
+                imgTwo={require("../assets/venture-club-ms.png")}
+                headingThree="other guys"
+                imgThree={require("../assets/venture-club-ms.png")}
+                headingFour="u know?"
+                imgFour={require("../assets/venture-club-ms.png")}
+              />
+            </Container>
 
             <Follow
               heading="Follow Us:"
